@@ -11,9 +11,26 @@ h2 {
 .presentation {
   padding: 40px;
   text-align: center;
-  background-color: #E4E8E2;
+  background-color: #EBEBE7;
   -moz-border-radius: 2px;
   border-radius: 2px;
+}
+
+@media (min-width: 1200px) {
+  .presentation {
+    margin-top: 6em;
+  }
+}
+
+@media (min-width: 800px) {
+  .presentation {
+    margin-top: 3em;
+  }
+}
+
+.presentation img {
+  width: 100%;
+  opacity: 0.1;
 }
 
 ul {
