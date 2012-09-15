@@ -4,7 +4,7 @@ body * {
 
 h2 {
   font-weight: normal;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .presentation {
@@ -12,11 +12,17 @@ h2 {
   position:absolute;
   top:50%;
   height:240px;
-  margin-top:-120px; /* negative half of the height */
+  margin-top:-100px; /* negative half of the height */
 }
 
 ul {
+  margin-top: 1em;
   list-style-type: none;
+}
+
+li {
+  font-size: 16px;
+  line-height: 21px;
 }
 
 .amp {
